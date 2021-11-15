@@ -35,6 +35,6 @@ if secenek == "Sohbet etsin":
         
 if secenek == "Sırtımı kaşısın":
     if st.button('Sırtımı kaşı 🤤'):
-        st.image("/App/kasi.png")
+        st.image("kasi.png")
         
         
