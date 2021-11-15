@@ -24,7 +24,7 @@ if secenek == 'Mimik yapsın':
     if st.button('Mimik Değiştir 🤗'):
         mimikler = os.listdir("/App/img")
         mimikler.remove('.DS_Store')
-        st.image("/App/img/" + str(random.choice(mimikler)))
+        st.image(str(random.choice(mimikler)))
         
 if secenek == "Sohbet etsin":
     if st.button('Konuş 👦'):
