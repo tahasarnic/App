@@ -22,7 +22,7 @@ secenek = st.radio("Ne isterseniz Egenaz hanım?", options = ['Mimik yapsın', '
 
 if secenek == 'Mimik yapsın':
     if st.button('Mimik Değiştir 🤗'):
-        mimikler = ["1.jpeg", "2.png", "3.jpeg", "4.webp", "5.jpeg", "6.png", "7.jpeg", "8.jpeg", "9.jpeg", "10.jpeg"]
+        mimikler = ["/img/1.jpeg", "/img/2.png", "/img/3.jpeg", "/img/4.webp", "/img/5.jpeg", "/img/6.png", "/img/7.jpeg", "/img/8.jpeg", "/img/9.jpeg", "/img/10.jpeg"]
         st.image(str(random.choice(mimikler)))
         
 if secenek == "Sohbet etsin":
