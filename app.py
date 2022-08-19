@@ -54,15 +54,16 @@ with col2:
     st.image('img1/'+hikaye_dict[hikaye]+'.png')
 
 st.markdown('## Sola Bakmak?')
-st.markdown('Tebrikler Ege Naz Bozovalı testi geçtin artık **SOLA BAKABİLİRSİN** 👇')
-st.image('img1/20220820_004117.jpg')
+with st.expander("Buraya tıkla"):
+    st.markdown('Tebrikler Ege Naz Bozovalı testi geçtin artık **SOLA BAKABİLİRSİN** 👇')
+    st.image('img1/20220820_004117.jpg')
 
-cevap = st.radio('Cevabınız?', ['Eveeeeeeeet', 'Nau Nau'])
+    cevap = st.radio('Cevabınız?', ['Eveeeeeeeet', 'Nau Nau'])
 
-if cevap == 'Eveeeeeeeet':
-    st.image('img1/11.png')
-else:
-    st.image('img1/12.png')
+    if cevap == 'Eveeeeeeeet':
+        st.image('img1/11.png')
+    else:
+        st.image('img1/12.png')
 
 
     
