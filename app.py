@@ -28,10 +28,7 @@ else:
 st.markdown('Belki bu aplikasyona bakarken seni bana, muhtemelen beni de sana hatırlatan şarkımızı dinlemek istersin 👇')
 
 if st.button('Şarkı Çalsın 🎶'):
-    @st.experimental_memo
-    def cal():
-        return st.video('music/Kaan Boşnak - Seni Buldum Ya.mp4', format='video/mp4')
-    cal()
+    st.video('music/Kaan Boşnak - Seni Buldum Ya.mp4', format='video/mp4')
 
 
 st.markdown('Evet bu hikayenin konusu da aslında **"seni buldum ya başka ne isterim?"** Gel beraber bu hikayeye bir göz atalım 👀')
